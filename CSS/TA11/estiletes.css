@@ -1,0 +1,20 @@
+p{
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+p:nth-last-of-type(2){
+    font-size: 24px;
+}
+
+div:first-of-type{
+    color: darkblue;
+    font-size: 36px;
+}
+
+div:last-of-type{
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 24px;
+
+}

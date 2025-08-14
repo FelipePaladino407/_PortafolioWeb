@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TA6</title>
+</head>
+<body>
+<h1>Encuesta boba</h1>
+
+<form action="/enviar-encuesta" method="POST">
+    <label for="colores">¿Qué colores te gustan?</label><br>
+    <select id="colores" name="colores[]" multiple size="4">
+        <option value="azul">Azul</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="verde">Verde</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Restablecer">
+</form>
+</body>
+</html>
