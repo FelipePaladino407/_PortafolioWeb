@@ -1,0 +1,21 @@
+JavaScript
+
+En cuanto a variables, "let" no es afectada por el hosting, mientras que "var" si. De hecho "var" es bastante mediocre, porque ademas permite reasignacion: 
+myName = "Hugo";
+myName = "Carlos";
+Eso es valido, lo cual es insolito.
+
+**Objetos**
+Coleccion de atributos y valores. Puedo almacenar funciones en un objeto, por lo que es valido decir que puedo almacenar lo que quiera.
+
+**Declaraciones**
+JavaScript hace evaluacion por circuito corto; eso quiere decir que primero evalua lo primero, y si ya da "false", por ejemplo, y la declaracion es &&, entonces ya lo determina. 
+Ej: "if (exp1 && exp2) => si exp1 == false => no evalua la segunda condicion.
+
+**Comparadores**
+"==" relaiza conversion de tipos en caso de que sea necesario para determinar la igualdad.
+"===" no convierte, compara tipo y valor. 
+
+
+
+

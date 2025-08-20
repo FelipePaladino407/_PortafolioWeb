@@ -1,11 +1,9 @@
-/* Reset mínimo para que 100vw no genere scroll horizontal */
+
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 
-/* Estilo por defecto (pantallas grandes ~1440px)
-   Fondo rojo, párrafo 24px, imagen al 50% del viewport */
 body {
-    background: red;                 /* TA16 grande */
+    background: red;
     font-family: system-ui, sans-serif;
 }
 
@@ -17,7 +15,6 @@ p {
     margin: 1rem auto 2rem;
 }
 
-/* Imagen centrada y proporcional */
 .hero {
     display: block;
     width: 50vw;
